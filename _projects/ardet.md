@@ -60,7 +60,7 @@ I also used [Veroboard](https://en.wikipedia.org/wiki/Veroboard) for primary bus
 
 The software was of course written in Arduino (essentially a modified C/C++). The little logic written was relating to the IR sensors at the start to align with the collection trough and the push buttons to collect and deposit the balls. 
 
-[See the final code here](https://github.com/anthonycarbone/anthonycarbone.github.io/assets/projects/ardet/final_code.ino), a word of warning that its definitely not the neatest and suffered a lot of last minute bashing of the keyboard to achieve a satisfactory final result.
+[See the final code here](https://github.com/anthonycarbone/anthonycarbone.github.io/blob/master/assets/projects/ardet/final_code.ino), a word of warning that its definitely not the neatest and suffered a lot of last minute bashing of the keyboard to achieve a satisfactory final result.
 
 #### Performance
 We were exceptionally pleased with the final performance of the vehicle (see the header video). The autonomous features of the IR sensors and push buttons did their job well.
