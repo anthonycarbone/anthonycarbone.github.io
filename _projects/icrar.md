@@ -1,20 +1,20 @@
 ---
-title: "ICRAR Summer Internship 2020/21"
+title: "Investigating Webjpip.js Library for Spectral Data Cubes - ICRAR Summer Internship 2020/21"
 layout: single
 excerpt: "Investigating the Webjpip.js library for web visualisation of extremely large radio astronomy images."
 header:
-  image: /assets/projects/icrar/architecture.png
-  teaser: /assets/projects/icrar/architecture.png
+  image: /assets/projects/icrar/architecture.jpg
+  teaser: /assets/projects/icrar/architecture_todo.jpg
 ---
 ### Investigating the Webjpip.js library for web visualisation of extremely large radio astronomy images.
 In the summer of 2020/21, I was fortunate to have been offered a summer internship at the [International Centre for Radio Astronomy (ICRAR)](https://www.icrar.org), specifically at their UWA node.
 
 My project, under the supervision of Dr Slava Kitaeff - CTO of the Australian SKA Regional Centre, was to investigate applying the [webjpip.js](https://github.com/MaMazav/webjpip.js?files=1) library to radio astronomy spectral data cubes.
 
-This was following on from Dr Kitaeff's consideration for using the JPEG2000 image standard for transportation and visualisation of spectral data cubes.
+This was following on from Dr Kitaeff's investigation of using the JPEG2000 image standard for transportation and visualisation of spectral data cubes.
 
 #### The Project
-The significance of this technology is particularly promising for the in-construction [SKA](https://en.wikipedia.org/wiki/Square_Kilometre_Array) which is expected to produce spectral data cubes in the tens or hundreds of TBs.
+The significance of this technology is particularly promising for the in-construction [SKA telescope](https://en.wikipedia.org/wiki/Square_Kilometre_Array) which is expected to produce spectral data cubes in the tens or hundreds of TBs.
 
 To make the most of these remarkable but extremely large images, remotely accessing and exploring them efficiently is paramount.
 
@@ -39,4 +39,4 @@ Playing around with the original developers demos, I found a number of issues th
 
 Overall, I learnt a great deal about how code is executed in the browser, internet protocols, proxies, the separation between front-end and back-end, and most importantly the techniques to come across some very foreign technologies and rapidly find my way around understanding and applying them.
 
-If you have any questions feel free to email or tweet me.
+As always, if you have any questions feel free to [email](mailto:anthonydavidcarbone@gmail.com) or tweet me @_anthonycarbone.
