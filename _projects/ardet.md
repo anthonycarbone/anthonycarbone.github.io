@@ -9,7 +9,7 @@ header:
   teaser: /assets/projects/ardet/top.jpeg
 ---
 
-### Designing and Building an autonomous vehicle for a first-year engineering course.
+### Designing and building an autonomous vehicle for a first-year engineering course.
 
 For ENGG1000, a first-year Engineering course at UNSW, I led our team of 6 students to win the projects final competition for an autonomous vehicle with a novel mechatronic design.
 
