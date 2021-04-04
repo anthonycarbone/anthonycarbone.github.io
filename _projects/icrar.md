@@ -1,7 +1,7 @@
 ---
-title: "Investigating Webjpip.js Library for Spectral Data Cubes - ICRAR Summer Internship 2020/21"
+title: "Investigating the Webjpip.js Library for radio astronomy application."
 layout: single
-excerpt: "Investigating the Webjpip.js library for web visualisation of extremely large radio astronomy images."
+excerpt: "Investigating the Webjpip.js library for web visualisation of extremely large radio astronomy spectral data cubes. ICRAR Summer Internship 2020/21."
 header:
   image: /assets/projects/icrar/architecture.jpg
   teaser: /assets/projects/icrar/architecture_todo.jpg
