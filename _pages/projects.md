@@ -7,4 +7,4 @@ author_profile: true
 entries_layout: grid
 ---
 
-A collection of pages in the `projects` collection.
+Here are a few projects or assignments of mine that you might find interesting.
