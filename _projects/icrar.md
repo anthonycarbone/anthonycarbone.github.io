@@ -5,6 +5,7 @@ excerpt: "Investigating the Webjpip.js library for web visualisation of extremel
 header:
   image: /assets/projects/icrar/architecture.jpg
   teaser: /assets/projects/icrar/architecture_todo.jpg
+classes: wide
 ---
 ### Investigating the Webjpip.js library for web visualisation of extremely large radio astronomy images.
 In the summer of 2020/21, I was fortunate to have been offered a summer internship at the [International Centre for Radio Astronomy (ICRAR)](https://www.icrar.org), specifically at their UWA node.
@@ -20,13 +21,15 @@ To make the most of these remarkable but extremely large images, remotely access
 
 Current formats such as FITS, CASA Image Tables, and LOFAR HDF5, all have varying degrees of accessibility, portability, and efficiency for remotely viewing large images. The JPEG2000 standard on the other hand offers great benefits in such areas with notable flexibility owing to the Part 2 extensions of the standard.
 
-In investigating potential existing technology for such a web-based application, I explored the features of the [webjpip.js](https://github.com/MaMazav/webjpip.js?files=1) library and made recommendations to [AusSRC](https://aussrc.org) to adapt it for use with spectral data cubes.
+In investigating potential existing technology for such a web-based application, I explored the features of the [webjpip.js](https://github.com/MaMazav/webjpip.js?files=1) library and made recommendations to [AusSRC](https://aussrc.org) to adapt it for use with spectral data cubes:
 
-[Find here the actual recommendations I made to AusSRC.](/assets/projects/icrar/final_presentation.pdf)
+<iframe src="/assets/vendor/pdfjs-2.7.570-dist/web/viewer.html?file=%2Fassets%2Fprojects%2Ficrar%2Faussrc_recommendations.pdf" frameborder="0" width="100%" height="800"></iframe>
 
 Also watch my Final Presentation on the project aim, challenges, successes, and recommendations.
 
 {% include video id="b8XaUvykN-M" provider="youtube" %}
+
+[Find here a PDF of these slides.](/assets/projects/icrar/final_presentation.pdf)
 
 #### What I Learnt
 Going in to the project I had basically no web development experience (or software development experience for that matter).

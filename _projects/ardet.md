@@ -15,9 +15,7 @@ For ENGG1000, a first-year Engineering course at UNSW, I led our team of 6 stude
 
 The task was to construct a vehicle under 5kg that could move the 10 play-pit balls across the track (below) autonomously as quickly as possible. Among the constraints, the vehicle at start had to fit in the cubic 580mm constraints, be powered by no more than 12V and 5000mAh capacity, and have costed under $100.
 
-<figure>
-  <img src="{{ '/assets/projects/ardet/track.jpg' | relative_url }}" alt="Circuit Diagram">
-</figure> 
+![Track Specs]({{ site.url }}{{ site.baseurl }}/assets/projects/ardet/track.jpg){: .align-center}
 
 My role was somewhat of a team lead, assigning subsystem design and construction to team members. I chose to take responsibility for the electronics and software to become familiar with what were completely foreign disciplines at the time.
 
@@ -44,9 +42,7 @@ We chose 4x AA batteries to power the servos as their optimal input voltage rang
 
 This [Fritzing](https://fritzing.org/download/) diagram illustrates how the the components, notably the motor driver (red), all connect. Note in the end we didn't use the Accelerometer/Gyro.
 
-<figure>
-  <img src="{{ '/assets/projects/ardet/circuit.jpg' | relative_url }}" alt="Circuit Diagram">
-</figure>
+![Circuit Diagram]({{ site.url }}{{ site.baseurl }}/assets/projects/ardet/circuit.jpg){: .align-center}
 
 [See here a more detailed hand drawn diagram here.](/assets/projects/ardet/big_circuit.jpg)
 
@@ -54,9 +50,7 @@ I used the motor driver (red) to drive the side pairs of motors in parallel, giv
 
 I also used [Veroboard](https://en.wikipedia.org/wiki/Veroboard) for primary buses in an attempt to keep things neat, which hilariously failed...
 
-<figure>
-    <img src="{{ '/assets/projects/ardet/electronics.jpeg' | relative_url }}" alt="Picture of Onboard Electronics">
-</figure>
+![Picture of Onboard Electronics]({{ site.url }}{{ site.baseurl }}/assets/projects/ardet/electronics.jpeg){: .align-center}
 
 The software was of course written in Arduino (essentially a modified C/C++). The little logic written was relating to the IR sensors at the start to align with the collection trough and the push buttons to collect and deposit the balls. 
 
@@ -79,8 +73,8 @@ I am grateful to have had a good team of five other first year students to have 
 - constructing our design in on-campus Makerspaces.
 
 The final vehicle *Montgomery* in all his glory...
-<figure>
-    <img src="{{ '/assets/projects/ardet/top.jpeg' | relative_url }}" alt="Picture of Onboard Electronics">
-</figure>
+
+![Picture of Onboard Electronics]({{ site.url }}{{ site.baseurl }}/assets/projects/ardet/top.jpeg){: .align-center}
+
 
 As always, if you have any questions feel free to [email](mailto:anthonydavidcarbone@gmail.com) or tweet me @_anthonycarbone.

@@ -13,15 +13,11 @@ The [ARDET project]({% link _projects/ardet.md %}) acted as a qualifier for the 
 
 The challenge was similar to the ARDET project, albeit more difficult geometry wise (see the track below). In an attempt to achieve a far greater time score, our design was more complicated then ARDET.
 
-<figure>
-  <img src="{{ '/assets/projects/warman/track.png' | relative_url }}" alt="Warman track specs.">
-</figure>
+![Warman track specs]({{ site.url }}{{ site.baseurl }}/assets/projects/warman/track.png)
 
 Unfortunately we didn't take all too many photos and videos of the vehicle, but below you can see the double-actuated main bucket driven by two extremely powerful servos on the chassis, and two medium power servos halfway up the arms.
 
-<figure>
-  <img src="{{ '/assets/projects/warman/up.jpg' | relative_url }}" alt="Warman Vehicle with arm extended.">
-</figure>
+![Warman Vehicle with arm extended]({{ site.url }}{{ site.baseurl }}/assets/projects/warman/up.jpg){: .align-center}
 
 Again, I was responsible for the electrical design, which followed a similar pattern to the ARDET project. This time I incorporated [buck convertors](https://en.wikipedia.org/wiki/Buck_converter) to power the 7V servos while benefitting from the favourable 11.1V LiPO discharge rate. I also chose to forego the bothersome Veroboard and soldered all connecting wires (including primary buses) to one another directly.
 
