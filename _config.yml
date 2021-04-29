@@ -6,17 +6,16 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 locale                   : "en-AU"
 title                    : "Anthony Carbone"
 title_separator          : "-"
-subtitle                 : "AKA 'Croc'" # site tagline that appears below site title in masthead
-name                     : "Anthony Carbone"
-description              : >
- "Passionate learner, outdoors man, musician, hobbyist, UNSW Aerospace Engineering & Advanced Physics student."
+subtitle                 : # site tagline that appears below site title in masthead
+name                     : 
+description              : "My portfolio website."
 url                      : "https://anthonycarbone.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "anthonycarbone/anthonycarbone.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "/assets/images/croc.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+teaser                   : assets/favicon_io/android-chrome-512x512.png # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+logo                     : assets/favicon_io/android-chrome-512x512.png # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
-# breadcrumbs            : false # true, false (default)
+breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
 
 # SEO Related
@@ -28,19 +27,19 @@ naver_site_verification  :
 # Social Sharing
 twitter:
   username               : "_anthonycarbone"
-og_image                 : # Open Graph/Twitter default site image
+og_image                 : assets/favicon_io/android-chrome-512x512.png # Open Graph/Twitter default site image
 
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "google-gtag", "custom"
+  provider               :  # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id          :
+    tracking_id          : 
     anonymize_ip         : # true, false (default)
 
 
 # Site Author
 author:
-  name             : "Anthony Carbone"
+  name             : 
   avatar           : "assets/images/mugshot.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "UNSW Aerospace Engineering & Advanced Physics student"
 
@@ -106,7 +105,7 @@ tag_archive:
 
 # Defaults
 defaults:
-  # _posts
+  # All posts (_posts)
   - scope:
       path: ""
       type: posts
