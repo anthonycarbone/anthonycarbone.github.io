@@ -41,7 +41,7 @@ analytics:
 author:
   name             : 
   avatar           : "assets/images/mugshot.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "UNSW Aerospace Engineering & Advanced Physics student"
+  bio              : "UNSW Aerospace Engineering & Computer Science student"
 
   location         : "Sydney, Australia"
   email            : "anthonydavidcarbone@gmail.com"
