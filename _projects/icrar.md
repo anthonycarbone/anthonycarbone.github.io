@@ -1,5 +1,5 @@
 ---
-title: "Investigating the Webjpip.js Library for radio astronomy application."
+title: "Investigating the Webjpip.js Library for radio astronomy application"
 layout: single
 excerpt: "Investigating the Webjpip.js library for web visualisation of extremely large radio astronomy spectral data cubes. ICRAR Summer Internship 2020/21."
 header:
