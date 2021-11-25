@@ -13,11 +13,11 @@ feature_row:
     btn_label: "Learn more"
   - image_path: /assets/images/cobbahdowns.jpeg
     alt: "Mugshot"
-    title: "Have a look at my résumé."
+    title: "Have a look at my CV."
     excerpt: ""
-    url: "/resume/"
+    url: "/CV/"
     btn_class: "btn--primary"
-    btn_label: "View Résumé"
+    btn_label: "View CV"
   - image_path: /assets/projects/ardet/top.jpeg
     alt: "Ardet robot"
     title: "Autononomous Arduino Vehicle"
